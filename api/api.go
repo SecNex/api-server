@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strings"
 
-	res "github.com/secnex/server/api/res"
-	"github.com/secnex/server/api/routes"
-	"github.com/secnex/server/db"
+	res "github.com/secnex/api-server/api/res"
+	"github.com/secnex/api-server/api/routes"
+	"github.com/secnex/api-server/db"
 )
 
 type ApiConfiguration struct {

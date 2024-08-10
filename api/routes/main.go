@@ -1,6 +1,6 @@
 package routes
 
-import "github.com/secnex/server/db"
+import "github.com/secnex/api-server/db"
 
 type Router struct {
 	Database *db.Connection

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/secnex/server/api/res"
+	"github.com/secnex/api-server/api/res"
 )
 
 func (router *Router) RouteHealth(w http.ResponseWriter, r *http.Request) {
